@@ -16,7 +16,7 @@ app.use("/api", cors({ origin: '*' }), ZingMp3Router)
 
 // Page Error
 app.get("*", (req, res) => {
-    res.send("Nhập Sai Đường Dẫn! Vui Lòng Nhập Lại >.<")
+    res.send("This site can’t be reached, please type again")
 });
 
 app.listen(port, () => {
